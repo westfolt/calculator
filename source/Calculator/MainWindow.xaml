@@ -1,0 +1,26 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="431.2" Width="422.6" ResizeMode="NoResize">
+    <Grid>
+        <Label x:Name="Display" Content="0" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top" Width="370" Height="55" FontSize="36" FlowDirection="RightToLeft" Background="LightGray" OpacityMask="Red" BorderThickness="2" Foreground="Black" BorderBrush="Black" Padding="10,2"/>
+        <Button x:Name="SevenButton" Content="7" HorizontalAlignment="Left" Margin="22,86,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="36" Click="NumbersButtons_Click"/>
+        <Button x:Name="EightButton" Content="8" HorizontalAlignment="Left" Margin="97,86,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="36" Click="NumbersButtons_Click"/>
+        <Button x:Name="NineButton" Content="9" HorizontalAlignment="Left" Margin="172,86,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="36" Click="NumbersButtons_Click"/>
+        <Button x:Name="FourButton" Content="4" HorizontalAlignment="Left" Margin="22,161,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="36" Click="NumbersButtons_Click"/>
+        <Button x:Name="FiveButton" Content="5" HorizontalAlignment="Left" Margin="97,161,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="36" Click="NumbersButtons_Click"/>
+        <Button x:Name="SixButton" Content="6" HorizontalAlignment="Left" Margin="172,161,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="36" Click="NumbersButtons_Click"/>
+        <Button x:Name="OneButton" Content="1" HorizontalAlignment="Left" Margin="22,236,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="36" Click="NumbersButtons_Click"/>
+        <Button x:Name="TwoButton" Content="2" HorizontalAlignment="Left" Margin="97,236,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="36" Click="NumbersButtons_Click"/>
+        <Button x:Name="ThreeButton" Content="3" HorizontalAlignment="Left" Margin="172,236,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="36" Click="NumbersButtons_Click"/>
+        <Button x:Name="ZeroButton" Content="0" HorizontalAlignment="Left" Margin="22,311,0,0" VerticalAlignment="Top" Width="145" Height="70" FontSize="36" Click="NumbersButtons_Click"/>
+        <Button x:Name="PointButton" Content="," HorizontalAlignment="Left" Margin="172,311,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="36" Click="PointButton_Click"/>
+        <Button x:Name="EqualsButton" Content="=" HorizontalAlignment="Left" Margin="322,236,0,0" VerticalAlignment="Top" Width="70" Height="145" FontSize="36" Click="EqualsButton_Click"/>
+        <Button x:Name="DivisionButton" Content="/" HorizontalAlignment="Left" Margin="247,161,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="36" Click="ActionButton_Click"/>
+        <Button x:Name="MultipleButton" Content="*" HorizontalAlignment="Left" Margin="322,161,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="36" Click="ActionButton_Click"/>
+        <Button x:Name="MinusButton" Content="-" HorizontalAlignment="Left" Margin="247,236,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="36" Click="ActionButton_Click"/>
+        <Button x:Name="PlusButton" Content="+" HorizontalAlignment="Left" Margin="247,311,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="36" Click="ActionButton_Click"/>
+        <Button x:Name="CancelButton" Content="C" HorizontalAlignment="Left" Margin="247,86,0,0" VerticalAlignment="Top" Width="145" Height="70" FontSize="36" Click="CancelButton_Click"/>
+
+    </Grid>
+</Window>
